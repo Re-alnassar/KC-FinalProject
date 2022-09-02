@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ac"
+    tools:context=".Apage">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="138dp"
+                android:layout_height="40dp"
+                android:layout_margin="30dp"
+                app:cardBackgroundColor="#0066157C"
+                app:cardCornerRadius="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/Bbtn"
+                        android:layout_width="138dp"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:text="breakfast">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="30dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/Lbtn"
+                        android:layout_width="138dp"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:text="lunch">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="30dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/Dbtn"
+                        android:layout_width="138dp"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:text="Dinner">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="30dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/Drbtn"
+                        android:layout_width="138dp"
+                        android:layout_height="match_parent"
+                        android:background="#00000000"
+                        android:text="drinks">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/a_b_dataList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
