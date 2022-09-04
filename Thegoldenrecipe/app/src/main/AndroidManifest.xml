@@ -14,10 +14,16 @@
         android:theme="@style/Theme.TheGoldenRecipe"
         tools:targetApi="31">
         <activity
+            android:name=".Example"
+            android:exported="false" />
+        <activity
             android:name=".Apage"
             android:exported="false" />
         <activity
-            android:name=".Ipage"
+            android:name=".Asweetspage"
+            android:exported="false" />
+        <activity
+            android:name=".Amainpage"
             android:exported="false" />
         <activity
             android:name=".Cuisines"

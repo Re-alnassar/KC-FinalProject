@@ -23,17 +23,18 @@
             android:layout_height="200dp">
 
             <ImageView
-                android:id="@+id/HUMMUS"
+                android:id="@+id/UMM_ALI"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/hummus">
+                android:src="@drawable/umm_ali">
 
             </ImageView>
 
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

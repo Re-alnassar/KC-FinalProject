@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">The golden recipe</string>
+
+
+    <string name="Bbtn">Button 1</string>
+    <string name="Lbtn">Button 2</string>
+    <string name="Dbtn">Button 3</string>
+    <string name="Drbtn">Button 4</string>
+
 </resources>
