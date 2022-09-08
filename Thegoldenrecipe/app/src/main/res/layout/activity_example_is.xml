@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Example"
+    android:background="@drawable/ing_background">
+
+
+    <ImageView
+        android:id="@+id/I_box_Image3"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-22dp"
+        android:src="@drawable/orange">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/actual_name3_I"
+        android:layout_width="206dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="505dp"
+        android:text="Hummus"
+        android:textColor="@color/white"
+        android:textSize="40sp">
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/I_main_Image3"
+        android:layout_width="195dp"
+        android:layout_height="223dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="508dp"
+        android:src="@drawable/ing_mulukhiya" />
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="705dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_below="@+id/I_box_Image3"
+
+
+        >
+
+        <ScrollView
+            android:layout_width="407dp"
+            android:layout_height="705dp"
+            android:layout_below="@+id/I_box_Image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="20dp">
+
+
+            <TextView
+                android:id="@+id/textview3_I"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="288dp"
+                android:layout_marginEnd="50dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="0dp"
+                android:autoLink="web"
+                android:text="You will need:
+•	Cooking liquid: usually chicken broth or rabbit broth is used. You can use any broth of your choice.
+•	Frozen Molokhia: in this recipe I've used frozen Molokhia.
+•	Dry coriander: preferably freshly roasted and ground coriander, the smell is more heavenly.
+•	Garlic: lots and lots of garlic. Some people like to mince a whole head of garlic.
+•	Ghee: I love using ghee in many recipes, butter is ok as well use oil if you prefer to.
+•	Bullion cube: this is to add more flavor to the molokhia, you can skip it if you have none.
+•	Tomato sauce: This is one of the new things I've added to my recipe. It adds a hint of both tartness and sweetness. Some people add sugar some or tomato paste. if you are not used to adding tomatoes to your molokhia feel free to skip this ingredient.
+•	     Baking soda: this one is to maintain a fresh green look for your Molokhia. This is very helpful if you will be making a big batch of molokhia or you intend to keep it the the fridge for 3 days or so. Feel free to skip.
+
+
+•	In a deep pot over medium-high heat melt ghee.
+•	Sauté garlic for 15-30 seconds.
+•	Until lightly golden and fragrant as shown in picture 3.
+•	Add coriander and keep stirring for another 30 seconds.
+•	The coriander will give its fragrance and turn a little more dark brown.
+•	Pour in some of the broth keeping the rest after we check consistency at the end.
+•	Sprinkle the bouillon cube. Stir until it is dissolved.
+•	Add the baking soda if you chose to, notice that the broth will foam.
+•	Add the Molokhia, and turn down the heat to medium low, keep stirring every now and then.
+•	Molokhia will slowly melt in the broth. Wait until it has completely melted.
+•	Pour in the tomato sauce and stir well.
+•	Check consistency: if it is too thick for your liking add more broth.
+
+"
+                android:textSize="30sp">
+
+            </TextView>
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

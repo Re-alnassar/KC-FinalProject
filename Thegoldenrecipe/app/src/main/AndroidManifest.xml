@@ -14,10 +14,46 @@
         android:theme="@style/Theme.TheGoldenRecipe"
         tools:targetApi="31">
         <activity
-            android:name=".Example"
+            android:name=".Example_I_Br"
+            android:exported="false" />
+        <activity
+            android:name=".Ibeverages_page"
+            android:exported="false" />
+        <activity
+            android:name=".Example_I_S"
+            android:exported="false" />
+        <activity
+            android:name=".Isweetspage"
+            android:exported="false" />
+        <activity
+            android:name=".Example_I_M"
+            android:exported="false" />
+        <activity
+            android:name=".Imainpage"
+            android:exported="false" />
+        <activity
+            android:name=".Example_I"
+            android:exported="false" />
+        <activity
+            android:name=".Ipage"
             android:exported="false" />
         <activity
             android:name=".Apage"
+            android:exported="false" />
+        <activity
+            android:name=".Example_A_Br"
+            android:exported="false" />
+        <activity
+            android:name=".Abeveragespage"
+            android:exported="false" />
+        <activity
+            android:name=".Example_A_S"
+            android:exported="false" />
+        <activity
+            android:name=".Example_A_M"
+            android:exported="false" />
+        <activity
+            android:name=".Example"
             android:exported="false" />
         <activity
             android:name=".Asweetspage"

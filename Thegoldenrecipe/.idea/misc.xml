@@ -14,18 +14,42 @@
         <entry key="..\:/Users/722ra/AndroidStudioProjects/Thegoldenrecipe/app/src/main/res/layout/activity_welcomingpage.xml" value="0.22" />
         <entry key="..\:/Users/722ra/AndroidStudioProjects/Thegoldenrecipe/app/src/main/res/layout/gridimage.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/722ra/AndroidStudioProjects/Thegoldenrecipe/app/src/main/res/layout/gridlayout.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/a_breakfast_grid.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.148" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.148" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/a_beverages_grid.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/a_breakfast_grid.xml" value="0.12598425196850394" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/a_maindish_adapter.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/a_maindish_grid.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/a_sweets_grid.xml" value="0.3223958333333333" />
-        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_amainpage.xml" value="0.3223958333333333" />
-        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_apage.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_asweetspage.xml" value="0.3223958333333333" />
-        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_abeveragespage.xml" value="0.1" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_adrinkspage.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_amaindish.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_amainpage.xml" value="0.1" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_apage.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_apage2.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_asweetspage.xml" value="0.28205128205128205" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_cuisines.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example.xml" value="0.275092936802974" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_abr.xml" value="0.1" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_am.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_as.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_i.xml" value="0.22" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_ibr.xml" value="0.1" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_im.xml" value="0.22" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_example_is.xml" value="0.1" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_gifpage.xml" value="0.31875" />
-        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_ipage.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_ibeverages_page.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_imainpage.xml" value="0.1" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_ipage.xml" value="0.3168724279835391" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_isweetspage.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_main.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/activity_welcomingpage.xml" value="0.1" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/example.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/i_bevereges_grid.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/i_breakfast_grid.xml" value="0.1" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/i_maindish_adapter.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/i_maindish_grid.xml" value="0.3223958333333333" />
+        <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/i_sweets_grid.xml" value="0.3223958333333333" />
         <entry key="..\:/Users/722ra/OneDrive/Documents/GitHub/KC-Android-hw-1/KC-FinalProject/Thegoldenrecipe/app/src/main/res/layout/tray.xml" value="0.3223958333333333" />
       </map>
     </option>

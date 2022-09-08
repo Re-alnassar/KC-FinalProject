@@ -1,20 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Example">
+    tools:context=".Example"
+    android:background="@drawable/ing_background">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+ <ImageView
+     android:id="@+id/I_box_Image"
+     android:layout_width="match_parent"
+     android:layout_height="223dp"
+     android:src="@drawable/orange">
+
+ </ImageView>
+
+ <TextView
+     android:id="@+id/actual_name_I"
+     android:layout_width="206dp"
+     android:layout_height="78dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="3dp"
+     android:layout_marginTop="148dp"
+     android:layout_marginEnd="202dp"
+     android:layout_marginBottom="505dp"
+     android:text="Hummus"
+     android:textColor="@color/white"
+     android:textSize="40sp">
+
+
+ </TextView>
+
+ <ImageView
+     android:id="@+id/I_main_Image"
+     android:layout_width="205dp"
+     android:layout_height="233dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="202dp"
+     android:layout_marginTop="0dp"
+     android:layout_marginEnd="4dp"
+     android:layout_marginBottom="497dp"
+     android:src="@drawable/ing_hummus" />
+
+ <LinearLayout
+     android:layout_width="407dp"
+     android:layout_height="700dp"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginTop="0dp"
+     android:layout_marginEnd="0dp"
+     android:layout_marginBottom="0dp"
+     android:layout_below="@+id/I_box_Image">
+
+  <ScrollView
+      android:layout_width="407dp"
+      android:layout_height="match_parent"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="6dp"
+      android:layout_marginTop="0dp"
+      android:layout_marginEnd="-2dp"
+      android:layout_marginBottom="20dp">
+
+
+   <TextView
+       android:id="@+id/textview6"
+       android:layout_width="match_parent"
+       android:layout_height="10dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="0dp"
+       android:layout_marginTop="288dp"
+       android:layout_marginEnd="0dp"
+       android:textColor="@color/black"
+       android:layout_marginBottom="0dp"
+       android:autoLink="web"
+       android:text="Ingredients
+•	Chickpeas (three cups). Chickpeas, also known as garbanzo beans, are the star ingredient in hummus. Canned or dry chickpeas? If you're wondering how to make hummus from scratch--the best, extra creamy, authentic stuff--you'll want to cook your own chickpeas from scratch (you'll give them a good soak overnight + boil in water until well-done. More on this later)
+•	Garlic (one or two cloves). Start with one clove and make sure it is finely minced. Tip: to tame its pungency, allow minced garlic to sit in a little bit of lemon juice for a few minutes.
+•	Tahini (five tablespoons and one teaspoon cup). Tahini is a rich, nutty and slightly bitter paste made from toasted sesame seeds. (You can find my go-to tahini paste here).
+•	Fresh Lemon Juice (from one lemon). Fresh lemon juice is just the thing to add tang here.
+•	Kosher Salt. Just a pinch of kosher salt to your liking. You can always add more. If you're interested in adding
+•	Extra Virgin Olive Oil. A generous drizzle of quality extra virgin olive oil is the way to finish and serve this dip the authentic way. (You can find my go-to extra virgin olive oils at our online shop here)
+•	Garnish. Not to be underestimated. My favorite way to garnish a bowl of hummus, once the EVOO has been poured nicely right in the middle, is a few pinches of tangy sumac (sometimes ground cumin is a good addition). If you have some extra cooked chickpeas, plant them right in the middle. For a pop of green, you can add a garnish of fresh parsley.
+
+
+
+Video link
+https://www.themediterraneandish.com/how-to-make-hummus/
+"
+       android:textSize="20sp">
+
+   </TextView>
+
+  </ScrollView>
+ </LinearLayout>
+</RelativeLayout>

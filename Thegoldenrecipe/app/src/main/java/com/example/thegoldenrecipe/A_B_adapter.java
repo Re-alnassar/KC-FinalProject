@@ -18,12 +18,12 @@ public class A_B_adapter extends RecyclerView.Adapter<A_B_adapter.MyViewHolder> 
 
     private Context context;
     private List<Breakfast> image;
-    private RecycleViewOnClickItem mOnClick;
+    private RecycleViewOnClickItem bOnClick;
 
 
     public A_B_adapter(Context context,RecycleViewOnClickItem mOnClick, List<Breakfast> image) {
         this.context = context;
-        this.mOnClick = mOnClick;
+        this.bOnClick = mOnClick;
         this.image = image;
     }
 
@@ -31,7 +31,7 @@ public class A_B_adapter extends RecyclerView.Adapter<A_B_adapter.MyViewHolder> 
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context).inflate(R.layout.a_breakfast_grid, parent,false);
-        return new MyViewHolder(v,mOnClick);
+        return new MyViewHolder(v,bOnClick);
     }
 
     @Override
@@ -48,10 +48,10 @@ public class A_B_adapter extends RecyclerView.Adapter<A_B_adapter.MyViewHolder> 
 
        ImageView bImageView;
 
-        public MyViewHolder(@NonNull View itemView ,final RecycleViewOnClickItem mOnClicK) {
+        public MyViewHolder(@NonNull View itemView ,final RecycleViewOnClickItem bOnClicK) {
             super(itemView);
             itemView.setOnClickListener(view -> {
-                mOnClicK.OnItemClick(getAdapterPosition());
+                bOnClicK.OnItemClick (getAdapterPosition());  //onclick
 
             });
             bImageView = itemView.findViewById(R.id.HUMMUS);
